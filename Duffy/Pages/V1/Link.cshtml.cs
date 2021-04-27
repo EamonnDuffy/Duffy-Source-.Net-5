@@ -40,13 +40,6 @@ namespace Duffy.Pages.V1
             },
             new LinkInfo
             {
-                Reference = "R1003",
-                Name = "Rapture Therapy Web Site",
-                Uri = "//Therapy.Rapture.global/",
-                HttpsAvailable = true
-            },
-            new LinkInfo
-            {
                 Reference = "R2000",
                 Name = "EVE",
                 Uri = "//www.Eve.ie/",
@@ -64,6 +57,13 @@ namespace Duffy.Pages.V1
                 Reference = "R2002",
                 Name = "GHIS Student Portfolio",
                 Uri = "//Web.Ghis.eu/Portfolio_EAD.html",
+                HttpsAvailable = true
+            },
+            new LinkInfo
+            {
+                Reference = "R2003",
+                Name = "GHIS Web Design",
+                Uri = "//Web.Ghis.eu/Index.html",
                 HttpsAvailable = true
             },
             new LinkInfo
