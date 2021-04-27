@@ -41,8 +41,8 @@ namespace Duffy.Pages.V1
             new LinkInfo
             {
                 Reference = "R1003",
-                Name = "Therapy Web Site",
-                Uri = "//www.Duffy.global/Éamonn Anthony Duffy/Documentation/Therapy/",
+                Name = "Rapture Therapy Web Site",
+                Uri = "//Therapy.Rapture.global/",
                 HttpsAvailable = true
             },
             new LinkInfo
@@ -64,7 +64,7 @@ namespace Duffy.Pages.V1
                 Reference = "R2002",
                 Name = "GHIS Student Portfolio",
                 Uri = "//Web.Ghis.eu/Portfolio_EAD.html",
-                HttpsAvailable = false
+                HttpsAvailable = true
             },
             new LinkInfo
             {
@@ -89,28 +89,28 @@ namespace Duffy.Pages.V1
                 Reference = "R3002",
                 Name = "Kismet Studios",
                 Uri = "//www.Eadent.com/",
-                HttpsAvailable = false
+                HttpsAvailable = true
             },
             new LinkInfo
             {
                 Reference = "R3003",
                 Name = "GoldPlay UK",
                 Uri = "//www.Eadent.com/",
-                HttpsAvailable = false
+                HttpsAvailable = true
             },
             new LinkInfo
             {
                 Reference = "R3004",
                 Name = "MuseGaming",
                 Uri = "//www.Eadent.com/",
-                HttpsAvailable = false
+                HttpsAvailable = true
             },
             new LinkInfo
             {
                 Reference = "R3005",
                 Name = "Eadent",
                 Uri = "//www.Eadent.com/",
-                HttpsAvailable = false
+                HttpsAvailable = true
             },
             new LinkInfo
             {
@@ -150,6 +150,13 @@ namespace Duffy.Pages.V1
                 Reference = "R4000",
                 Name = "Rapture Web Site",
                 Uri = "//www.Rapture.global/",
+                HttpsAvailable = true
+            },
+            new LinkInfo
+            {
+                Reference = "R4001",
+                Name = "Rapture Therapy Web Site",
+                Uri = "//Therapy.Rapture.global/",
                 HttpsAvailable = true
             },
         };
