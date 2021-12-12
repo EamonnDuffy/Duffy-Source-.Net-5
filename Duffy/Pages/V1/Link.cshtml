@@ -17,22 +17,25 @@
         </colgroup>
         @foreach (var linkInfo in Model.LinkInfoList)
         {
-            <tr>
-                <td style="text-align: right;">@number.</td>
-                <td style="text-align: center;">@linkInfo.Reference</td>
-                <td>
-                    @if (linkInfo.HttpsAvailable)
-                    {
-                        <a target="_blank" href="https:@linkInfo.Uri">@linkInfo.Name</a>
-                    }
-                    else
-                    {
-                        <a target="_blank" href="http:@linkInfo.Uri">@linkInfo.Name</a>
-                    }
-                </td>
-            </tr>
+            @if (Model.ShowAll || linkInfo.ShowAlways)
+            {
+                <tr>
+                    <td style="text-align: right;">@number.</td>
+                    <td style="text-align: center;">@linkInfo.Reference</td>
+                    <td>
+                        @if (linkInfo.HttpsAvailable)
+                        {
+                            <a target="_blank" href="https:@linkInfo.Uri">@linkInfo.Name</a>
+                        }
+                        else
+                        {
+                            <a target="_blank" href="http:@linkInfo.Uri">@linkInfo.Name</a>
+                        }
+                    </td>
+                </tr>
 
-            ++number;
+                ++number;
+            }
         }
     </table>
 </div>
