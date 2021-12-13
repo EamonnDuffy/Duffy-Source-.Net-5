@@ -170,7 +170,7 @@ namespace Duffy.Pages.V1
                 Name = "Rapture Web Site",
                 Uri = "//www.Rapture.global/",
                 HttpsAvailable = true,
-                ShowAlways = false
+                ShowAlways = true
             },
             new LinkInfo
             {
@@ -178,7 +178,7 @@ namespace Duffy.Pages.V1
                 Name = "Rapture Therapy Web Site",
                 Uri = "//Therapy.Rapture.global/",
                 HttpsAvailable = true,
-                ShowAlways = false
+                ShowAlways = true
             },
         };
 
